@@ -1,0 +1,1 @@
+// Ce script peut être vide, il est nécessaire pour que la page web permette l'injection de notre code.

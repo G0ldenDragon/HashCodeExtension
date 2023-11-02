@@ -1,0 +1,20 @@
+{
+    "name": "Code Hashing",
+    "version": "1.0.0",
+    "description": "Can create a hash of your password",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Code Hashing"
+    }, 
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["content.js"]
+        }
+      ]
+}
